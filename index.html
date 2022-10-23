@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Weather App⛅</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+
+    </head>
+
+    <body>
+        <div class="centered">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="card-title">
+                        Weather
+                    </h3>
+                    <p class="card-subtitle mb-2 text-muted">
+                        Simple Weather App For <br>
+                        All Around The World
+                    </p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="input">
+                        <button class="btn btn-dark" type="button" id="button-addon2">where?</button>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-body text-center">
+                            <div class="card-header" id="cityName">
+                                <h3 style="font-weight: 500;" id="city">-</h3>
+                            </div>
+                            
+                            <br>
+                            <div class="card-text text-center">
+                                <h4 class="text-lg-center" id="weather_current" style="font-weight: 700;">-</h4>
+                            </div>
+                            <br>
+                            
+                            <div class="card-text text-center">
+                                <p>
+                                    Temprature: <span id="temp">0</span>F°/
+                                    <span id="TempCelcius">0</span>°C
+                                </p>
+
+                                <p>
+                                    Max Temprature: <span id="tempmax">0</span>°F/
+                                    <span id="maxTempCelcius">0</span>°C
+                                </p>
+
+                                <p>
+                                    Min Temprature: <span id="tempmin">0</span>°F/
+                                    <span id="minTempCelcius">0</span>°C
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+              </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
